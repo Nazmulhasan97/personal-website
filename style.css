@@ -10,7 +10,6 @@ section{
    text-decoration: none;
    text-align: right;
    margin-right: 5%;
-   color: rgb(0, 0, 0);
    font-weight: 700;
 }
 .navbar ul li{
@@ -20,6 +19,7 @@ section{
 .navbar ul li a{
    text-decoration: none;
    font-size: 22px;
+   color:#141824;
 }
 .half-width{
    width: 40%;
@@ -63,6 +63,11 @@ h2{
    font-size: 48px;
    font-weight: 600;
 }
+h3{
+   color: #192b31;
+   font-weight: 700;
+   text-transform: capitalize;
+}
 .content{
    margin-left: 10%;
    margin-bottom: 24%;
@@ -77,11 +82,17 @@ h2{
    text-align: center;
    font-size: 40px;
    padding-top: 5%;
+   color: rgb(3, 33, 34);
 }
 .title{
-   color: #F66460;
+   color:rgb(8, 192, 238);
 }
-
+.project-icon{
+   text-decoration: none;
+   text-transform: capitalize;
+   color:dodgerblue;
+   
+}
 .project-part{
    padding: 1%;
    box-shadow: 10px 12px 48px gray;
@@ -91,6 +102,7 @@ h2{
    float: left;
    margin-top: 5%;
    border-radius: 2%;
+   border-left: 4px  solid rgb(8, 192, 238);
 }
 .discussion{
    margin-top: 3%;
@@ -111,14 +123,16 @@ h2{
    font-size: 20px;
    padding: 15px 25px;
    border-radius: 5px;
-   box-shadow: 15px   10px 44px gray;
-   border-radius: 4px;
-   color: #f6e8e8;
-   text-transform: uppercase
+   box-shadow: 15px 10px 44px gray;
+   border-radius: 10px;
+   color: #fff;
+   text-transform: uppercase;
+   background-color: #db1356;
 }
 .contacts{
    text-align: center;
    line-height:0.5em;
+
 }
 .contacts img{
    width: 3%;
@@ -127,11 +141,41 @@ h2{
 #web-title{
    font-size: 24px;
    font-weight: 700;
-   color: #696871;
+   color: #d9541f;
 }
 #web-info{
    font-family: 'Roboto', sans-serif;
    font-size: 40px;
    font-weight: 700;
-   color: #363958;
+   color: #262a5f;
+}
+.information{
+   width: 40%;
+   margin-bottom: 150px;
+   box-shadow: 15px 10px 45px gray;
+   padding-bottom: 16px;
+   height: 200px;
+   text-align: center;
+   margin-left: 28%;
+   border-radius: 11px;
+}
+.info{
+   margin-bottom: 3%;
+}
+form{
+   font-size: 19px;
+   font-weight: 700;
+   color: #10886c;
+}
+.button{
+   margin-top: 4%;
+}
+.btn{
+   text-decoration: none;
+   color: whitesmoke;
+   background-color: tomato;
+   font-size: 18px;
+   font-weight: 600;
+   padding: 10px 14px;
+   border-radius: 5px;
 }
